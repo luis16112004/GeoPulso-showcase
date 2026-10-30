@@ -64,6 +64,10 @@ GeoPulso junta todo en una sola app con tres vistas según el rol:
 - **Su cuadrilla:** avance de cada integrante, metas e historial.
 - **Detalle por encuestador:** encuestas por día y rutas recorridas en el mapa.
 
+### Módulo web complementario
+
+- **Red de promotores:** los promotores registran a sus simpatizantes ("promovidos") y los capturistas dan seguimiento a sus solicitudes. Los permisos dependen del rol de cada quien. Esta vitrina no incluye datos personales.
+
 ## Cómo está construida
 
 <p align="center">
