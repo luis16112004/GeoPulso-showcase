@@ -19,7 +19,7 @@
 </p>
 
 > [!NOTE]
-> Este repositorio presenta el producto: qué hace, cómo se ve y cómo está construido. El código fuente es privado; si quieres verlo o probar una demo, escríbeme por GitHub.
+> Este repositorio presenta el producto: qué hace, cómo se ve y cómo está construido. El código fuente es privado; si quieres verlo o probar una demo, contáctame desde [mi perfil](https://github.com/luis16112004).
 
 ## Capturas
 
