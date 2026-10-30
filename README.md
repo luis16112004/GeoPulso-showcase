@@ -66,20 +66,9 @@ GeoPulso junta todo en una sola app con tres vistas según el rol:
 
 ## Cómo está construida
 
-```mermaid
-flowchart LR
-    subgraph Telefono["App Android · Kotlin + Jetpack Compose"]
-        UI["Pantallas en Compose<br/>(Material 3, tema propio)"] --> VM["ViewModels<br/>(Hilt, StateFlow)"]
-        VM --> DB[("Room<br/>encuestas · rutas · audios")]
-        SYNC["WorkManager<br/>sincronización"] --> DB
-        VM --> REP["Generador de reportes<br/>Excel y PDF en el teléfono"]
-        VM --> MAPA["Mapa de calor<br/>GeoJSON + OSMDroid"]
-    end
-    SYNC --> FS[("Cloud Firestore")]
-    SYNC --> ST[("Firebase Storage<br/>audios")]
-    VM --> AUTH["Firebase Auth"]
-    VM --> FS
-```
+<p align="center">
+  <img src="docs/arquitectura.svg" alt="Arquitectura: la app Android guarda en Room, sincroniza con WorkManager hacia Firestore y Storage, e inicia sesión con Firebase Auth" width="100%">
+</p>
 
 ## Decisiones técnicas
 

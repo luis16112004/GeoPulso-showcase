@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="920" height="380" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748B"/>
+    </marker>
+  </defs>
+
+  <!-- Fondo propio para que se lea igual en tema claro y oscuro de GitHub -->
+  <rect x="0" y="0" width="920" height="380" rx="16" fill="#F8FAFC" stroke="#E2E8F0"/>
+
+  <!-- App Android -->
+  <rect x="20" y="20" width="600" height="340" rx="14" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="40" y="50" font-size="15" font-weight="700" fill="#0F172A">App Android · Kotlin + Jetpack Compose</text>
+
+  <g font-size="13">
+    <rect x="40" y="70" width="180" height="56" rx="10" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="130" y="94" text-anchor="middle" font-weight="600" fill="#134E4A">Pantallas en Compose</text>
+    <text x="130" y="113" text-anchor="middle" font-size="11.5" fill="#0F766E">Material 3 · tema propio</text>
+
+    <rect x="260" y="70" width="180" height="56" rx="10" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="350" y="94" text-anchor="middle" font-weight="600" fill="#134E4A">ViewModels</text>
+    <text x="350" y="113" text-anchor="middle" font-size="11.5" fill="#0F766E">Hilt · Coroutines · StateFlow</text>
+
+    <rect x="40" y="180" width="170" height="56" rx="10" fill="#EEF2FF" stroke="#6366F1"/>
+    <text x="125" y="204" text-anchor="middle" font-weight="600" fill="#312E81">Room</text>
+    <text x="125" y="223" text-anchor="middle" font-size="11.5" fill="#4338CA">encuestas · rutas · audios</text>
+
+    <rect x="230" y="180" width="170" height="56" rx="10" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="315" y="204" text-anchor="middle" font-weight="600" fill="#134E4A">Reportes Excel y PDF</text>
+    <text x="315" y="223" text-anchor="middle" font-size="11.5" fill="#0F766E">generados en el teléfono</text>
+
+    <rect x="420" y="180" width="180" height="56" rx="10" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="510" y="204" text-anchor="middle" font-weight="600" fill="#134E4A">Mapa de calor</text>
+    <text x="510" y="223" text-anchor="middle" font-size="11.5" fill="#0F766E">GeoJSON + OSMDroid</text>
+
+    <rect x="40" y="280" width="170" height="56" rx="10" fill="#EEF2FF" stroke="#6366F1"/>
+    <text x="125" y="304" text-anchor="middle" font-weight="600" fill="#312E81">WorkManager</text>
+    <text x="125" y="323" text-anchor="middle" font-size="11.5" fill="#4338CA">sincroniza sin conexión</text>
+  </g>
+
+  <!-- Firebase -->
+  <rect x="660" y="20" width="240" height="340" rx="14" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="680" y="50" font-size="15" font-weight="700" fill="#0F172A">Firebase</text>
+
+  <g font-size="13">
+    <rect x="680" y="70" width="200" height="56" rx="10" fill="#FFF7ED" stroke="#F97316"/>
+    <text x="780" y="94" text-anchor="middle" font-weight="600" fill="#7C2D12">Firebase Auth</text>
+    <text x="780" y="113" text-anchor="middle" font-size="11.5" fill="#C2410C">usuario y contraseña</text>
+
+    <rect x="680" y="170" width="200" height="56" rx="10" fill="#FFF7ED" stroke="#F97316"/>
+    <text x="780" y="194" text-anchor="middle" font-weight="600" fill="#7C2D12">Cloud Firestore</text>
+    <text x="780" y="213" text-anchor="middle" font-size="11.5" fill="#C2410C">reglas de seguridad por rol</text>
+
+    <rect x="680" y="280" width="200" height="56" rx="10" fill="#FFF7ED" stroke="#F97316"/>
+    <text x="780" y="304" text-anchor="middle" font-weight="600" fill="#7C2D12">Firebase Storage</text>
+    <text x="780" y="323" text-anchor="middle" font-size="11.5" fill="#C2410C">audios de las encuestas</text>
+  </g>
+
+  <!-- Flechas -->
+  <g fill="none" stroke="#64748B" stroke-width="1.6" marker-end="url(#flecha)">
+    <path d="M220,98 H256"/>
+    <path d="M300,126 C300,155 125,150 125,176"/>
+    <path d="M350,126 C350,150 315,155 315,176"/>
+    <path d="M400,126 C400,150 510,155 510,176"/>
+    <path d="M440,86 H676"/>
+    <path d="M440,112 H650 V188 H676"/>
+    <path d="M210,296 H640 V206 H676"/>
+    <path d="M210,320 H676"/>
+    <path d="M125,280 V240" marker-start="url(#flecha)"/>
+  </g>
+
+  <g font-size="11" fill="#475569">
+    <text x="560" y="80" text-anchor="middle">inicia sesión</text>
+    <text x="545" y="106" text-anchor="middle">lee y escribe</text>
+    <text x="430" y="290" text-anchor="middle">sube encuestas y rutas pendientes</text>
+    <text x="430" y="314" text-anchor="middle">sube audios</text>
+  </g>
+</svg>
